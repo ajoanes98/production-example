@@ -1,0 +1,10 @@
+service: checkout-ops
+slos:
+  - name: availability
+    target: 99.95
+    window: 30d
+    description: HTTP 2xx / total checkout requests
+  - name: latency_p99
+    target_ms: 300
+    window: 30d
+    description: 99th percentile checkout response time

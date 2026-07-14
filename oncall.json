@@ -1,0 +1,7 @@
+{
+  "rotation": "checkout-oncall",
+  "schedule": "weekly",
+  "pagerduty_service_id": "PCHK001",
+  "escalation_policy": "checkout-escalation",
+  "primary": "checkout-oncall@example.com"
+}
