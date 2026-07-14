@@ -1,0 +1,20 @@
+# This is a comment - Git ignores lines starting with '#'
+
+# Ignore a specific file
+secrets.json
+
+# Ignore all files with a specific extension (using wildcards)
+*.log
+*.tmp
+
+# Ignore an entire folder and everything inside it (trailing slash required)
+node_modules/
+dist/
+.venv/
+
+# Ignore files inside a specific directory matching a pattern
+docs/*.pdf
+
+# Exception rule: Ignore all .txt files, BUT do track 'important.txt'
+*.txt
+!important.txt
